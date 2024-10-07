@@ -1,0 +1,37 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOI Accessibility Enhancer</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body class="no-transitions">
+  <div class="popup-container">
+    <header>
+      <img src="icon.png" alt="Extension Logo" class="logo">
+      <h1>DOI Accessibility Enhancer</h1>
+    </header>
+    <main>
+      <div class="option" title="Enable or disable accessibility enhancements on web pages.">
+        <span>Enable Accessibility Enhancements</span>
+        <label class="switch">
+          <input type="checkbox" id="enableExtension">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="option">
+        <span>Highlight Modified Links</span>
+        <label class="switch">
+          <input type="checkbox" id="enableHighlight">
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </main>
+    <footer>
+      <a href="https://gitlab.com/crossref" target="_blank">Learn more</a>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
