@@ -169,7 +169,7 @@ async function enhanceDOILinks(highlightEnabled) {
         }
 
         // Add pop-over functionality
-        addPopover(anchor, data.message, title);
+        // addPopover(anchor, data.message, title);
       } catch (error) {
         console.error(`Error fetching data for DOI ${doi}:`, error);
       }
